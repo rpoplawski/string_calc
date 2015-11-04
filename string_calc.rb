@@ -7,7 +7,7 @@ puts "Would you like to
 response = gets.chomp
 
 case response.downcase
-#Addition
+#Add
 when '1'
   def addition_function
             puts "Which numbers would you like to add?"
