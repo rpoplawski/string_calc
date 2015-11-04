@@ -1,4 +1,3 @@
-
 puts "Would you like to
     1 ---- [add],
     2 ---- [subtract],
@@ -8,6 +7,7 @@ puts "Would you like to
 response = gets.chomp
 
 case response.downcase
+#Addition
 when '1'
   def addition_function
             puts "Which numbers would you like to add?"
@@ -43,7 +43,7 @@ when '3'
 multiplication_function()
 
 
-#Division
+#Divide
 when '4'
   def division_function
             puts "Which numbers would you like to divide?"
